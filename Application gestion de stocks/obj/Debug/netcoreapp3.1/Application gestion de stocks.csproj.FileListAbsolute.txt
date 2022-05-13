@@ -1,0 +1,30 @@
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.csprojAssemblyReference.cache
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.csproj.GenerateResource.cache
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.AssemblyInfoInputs.cache
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.AssemblyInfo.cs
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\Application gestion de stocks.exe
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\Application gestion de stocks.deps.json
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\Application gestion de stocks.runtimeconfig.json
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\Application gestion de stocks.runtimeconfig.dev.json
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\Application gestion de stocks.dll
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\Application gestion de stocks.pdb
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.dll
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.pdb
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.genruntimeconfig.cache
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application gestion de stocks.csproj.CopyComplete
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.AjoutConsultation.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.Consulter.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.Ajouter.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.ConsulterFournisseurs.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.ConsulterClients.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.ConsulterCommandes.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.ConsulterFacturesClient.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.ConsulterProduits.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.AjouterFournisseur.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.AjouterClient.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.AjouterCommande.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.AjouterFactureClient.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.AjouterProduit.resources
+C:\Users\anton\Desktop\Application gestion de stocks\Application gestion de stocks\obj\Debug\netcoreapp3.1\Application_gestion_de_stocks.FormMain.resources

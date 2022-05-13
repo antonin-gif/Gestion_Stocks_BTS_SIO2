@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AjoutConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ajouter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterFactureClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Consulter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsulterClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsulterCommandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsulterFacturesClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsulterFournisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsulterProduits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
