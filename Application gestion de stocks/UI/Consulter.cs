@@ -10,8 +10,10 @@ namespace Application_gestion_de_stocks
 {
     public partial class Consulter : Form
     {
-        public Consulter()
+        private Connector connector;
+        public Consulter(Connector connector)
         {
+            this.connector = connector;
             InitializeComponent();
         }
 
@@ -45,7 +47,7 @@ namespace Application_gestion_de_stocks
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ConsulterClients c = new ConsulterClients();
+            ConsulterClients c = new ConsulterClients(connector);
             c.Show();
             this.Close();
         }

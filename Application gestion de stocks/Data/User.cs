@@ -4,12 +4,18 @@ using System.Text;
 
 namespace Application_gestion_de_stocks
 {
-    class User
+    public class User
     {
         protected string prenom;
         protected string nom;
         protected string mail;
         protected string mdp;
+
+        public User(string mail, string password)
+        {
+            this.mail = mail;
+            mdp = password;
+        }
 
         public User(string p, string n, string m, string mdp)
         {

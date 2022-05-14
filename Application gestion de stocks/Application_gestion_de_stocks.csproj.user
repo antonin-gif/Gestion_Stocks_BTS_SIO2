@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="AjoutConsultation.cs">
+    <Compile Update="UI\AjoutConsultation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Ajouter.cs">
+    <Compile Update="UI\Ajouter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AjouterClient.cs">
+    <Compile Update="UI\AjouterClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AjouterCommande.cs">
+    <Compile Update="UI\AjouterCommande.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AjouterFactureClient.cs">
+    <Compile Update="UI\AjouterFactureClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AjouterFournisseur.cs">
+    <Compile Update="UI\AjouterFournisseur.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AjouterProduit.cs">
+    <Compile Update="UI\AjouterProduit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Consulter.cs">
+    <Compile Update="UI\Consulter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ConsulterClients.cs">
+    <Compile Update="UI\ConsulterClients.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ConsulterCommandes.cs">
+    <Compile Update="UI\ConsulterCommandes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ConsulterFacturesClient.cs">
+    <Compile Update="UI\ConsulterFacturesClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ConsulterFournisseurs.cs">
+    <Compile Update="UI\ConsulterFournisseurs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ConsulterProduits.cs">
+    <Compile Update="UI\ConsulterProduits.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="UI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

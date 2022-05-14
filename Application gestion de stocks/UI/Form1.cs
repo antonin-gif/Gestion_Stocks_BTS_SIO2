@@ -8,12 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.IO;
+using Application_gestion_de_stocks.Uitlity;
 
 namespace Application_gestion_de_stocks
 {
     public partial class FormMain : Form
     {
         Connector connector;
+        
         public FormMain(Connector connector)
         {
             this.connector = connector;
@@ -36,22 +39,30 @@ namespace Application_gestion_de_stocks
             ac.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnConnect_Click(object sender, EventArgs e)
         {
             string loginAdm = emailAdmin.Text;
             string mdpAdm = mdpAdmin.Text;
 
-            if(loginAdm.Equals("admin") && mdpAdm.Equals("admin"))
+
+            List<User> users = connector.GetUsers();
+
+            foreach(User user in users)
             {
-                btnLancerApp.Visible = true;
-                lbError.Visible = false;
+                string decryptedPassword = Encryptor.DecryptString(user.getMdp());
+
+                if(decryptedPassword == mdpAdm)
+                {
+                    btnLancerApp.Visible = true;
+                    lbError.Visible = false;
+                    return;
+                }
             }
-            else
-            {
-                lbError.Visible = true;
-            }
+
+            lbError.Visible = true;
             
         }
+       
     }
 
 }

@@ -12,12 +12,11 @@ namespace Application_gestion_de_stocks
     public partial class AjouterClient : Form     
     {
 
-        Connector con = new Connector();
-        MySqlConnection sqlCon = new MySqlConnection();
+        private Connector connector;
         public AjouterClient()
         {
             InitializeComponent();
-            sqlCon = con.GetConnection();
+            this.connector = connector;
         }
 
         private void emailFournisseur_TextChanged(object sender, EventArgs e)
@@ -45,11 +44,7 @@ namespace Application_gestion_de_stocks
             else{
                 string query = "INSERT INTO CLIENT(nom, prenom, telephone) VALUES ('" + nom + "', '" + prenom + "', '" + tel + "');";
 
-                sqlCon.Open();
-                MySqlCommand cmd = sqlCon.CreateCommand();
-                cmd.CommandText = query;
-                cmd.ExecuteNonQuery();
-                sqlCon.Close();
+                connector.addClient(nom, prenom ,tel);
 
                 lbError.Text = "Client ajouté";
                 lbError.Visible = true;

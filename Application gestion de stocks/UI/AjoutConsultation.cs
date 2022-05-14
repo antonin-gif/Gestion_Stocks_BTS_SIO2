@@ -25,7 +25,7 @@ namespace Application_gestion_de_stocks
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Consulter c = new Consulter();
+            Consulter c = new Consulter(connector);
             c.Show();
         }
     }

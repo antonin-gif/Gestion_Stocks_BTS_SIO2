@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 namespace Application_gestion_de_stocks
 {
-    class Client
+    public class Client
     {
+        public int Id { get; private set; }
         protected string nom;
         protected string prenom;
         protected string telephone;
@@ -13,11 +15,12 @@ namespace Application_gestion_de_stocks
         //atributes association
         protected List<Facture> mesFactures;
 
-        public Client(string n, string p, string t)
+        public Client(int id,string n, string p, string t)
         {
+            this.Id = id;
             this.nom = n;
             this.prenom = p;
-            this.telephone = p;
+            this.telephone = t;
             this.mesFactures = new List<Facture>();
         }
 
@@ -58,5 +61,12 @@ namespace Application_gestion_de_stocks
             this.telephone = t;
         }
 
+
+        public override string ToString()
+        {
+            return $"{Id} {nom} {prenom} {telephone}";
+        }
+
+       
     }
 }

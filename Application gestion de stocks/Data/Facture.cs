@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Application_gestion_de_stocks
 {
-    class Facture
+    public class Facture
     {
         protected string adresse;
         protected DateTime dateLivraisonFacture;
