@@ -18,5 +18,6 @@ Pour déployer ce projet, veuillez suivre les instructions :
 2- Déziper le fichier
 3- Ouvrir le projet sur Visual Studio 2019
 4- Configurer le constructeur de la classe Connecteur pour paramétrer la base de données
-5- Lancer l'application depuis VS 2019
-
+5- Créer une database "appgestiondestocks"
+5- Importer le dump "Dump structure et contenu bdd.sql" dans la base de données "appgestiondestocks"
+6- Vous pouvez lancer l'application depuis VS 2019
